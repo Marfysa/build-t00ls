@@ -3,7 +3,7 @@ package com.test;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public classs UnitTest {
+public class UnitTest {
     @Test public void testAppHasAGreeting() {
         Project classUnderTest = new Project();
         assertNotNull("app should have a greeting",
@@ -14,4 +14,9 @@ public classs UnitTest {
    public void test(){
      Project.test();
    }
+}
+public void infiniteLoopUsingFor() {
+    for (;;) {
+        // do something
+    }
 }
