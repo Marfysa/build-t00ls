@@ -9,7 +9,7 @@ class Project {
         return "Hello, MNT Lab!";
     }
 
-  public statick void test() {
+  public static void test() {
     System.out.println("test");
   }
 

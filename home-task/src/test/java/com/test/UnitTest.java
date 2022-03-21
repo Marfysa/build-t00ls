@@ -3,7 +3,7 @@ package com.test;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class UnitTest {
+public classs UnitTest {
     @Test public void testAppHasAGreeting() {
         Project classUnderTest = new Project();
         assertNotNull("app should have a greeting",
