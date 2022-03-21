@@ -15,8 +15,15 @@ public class UnitTest {
      Project.test();
    }
 }
-public void infiniteLoopUsingFor() {
-    for (;;) {
-        // do something
-    }
+public class ForLoopInfiniteExample {
+
+	public static void main(String[] args) {
+
+		// for loop condition to true.
+		// this loop runs forever.
+		for (; true;) {
+			// core logic
+			System.out.println("Running loop");
+		}
+	}
 }
