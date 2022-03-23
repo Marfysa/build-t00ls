@@ -33,7 +33,7 @@
    </dependencies>
    <distributionManagement>
         <repository>
-            <id>maven-repo</id>
+            <id>deploy-repo</id>
             <name>Internal Repository</name>
             <url>http://192.168.100.4:8082/nexus/content/repositories/maven_repo/</url>
         </repository>
