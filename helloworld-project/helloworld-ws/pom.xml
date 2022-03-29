@@ -41,6 +41,11 @@
         <!-- Remote Server URL -->
         <remote.server.url>http://localhost:8080/</remote.server.url>
     </properties>
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.2</version>
+    </plugin>
 
     <dependencies>
         <!-- Import the CDI API, we use provided scope as the API is included
